@@ -1,6 +1,6 @@
 ## Master
 
-## v1.14.2
+## v1.15.0
 
 * [flow-routing] fixed dependency on kadira:flow-router: now using the last non-Meteor@1.3 one
 
@@ -40,7 +40,7 @@
 ## v1.12.4
 
 * fixed input element classes for `useraccounts:materialize` (see https://github.com/meteor-useraccounts/materialize/pull/18)
-* fixed query parameters look-up for `useraccounts:iron-routing`
+* fixed query parameters look-up for `sebl29:useraccounts-iron-routing`
 * updated `useraccounts:polymer` to use Polimer 1.0 (see updated [boilerplate](https://github.com/meteor-useraccounts/boilerplates/tree/master/polymer) with some instructions for Meteor 1.2)
 * updates and fixes for `useraccounts:flow-rounting` (see https://github.com/meteor-useraccounts/flow-routing/issues/12)
 * improoved css for `useraccounts:semantic-ui`
@@ -52,7 +52,7 @@
 ## v1.12.3
 
 * fixed radio buttons for useraccounts:materialize (see https://github.com/meteor-useraccounts/core/issues/421)
-* fixed query parameters pick up for useraccounts:iron-routing (see meteor-useraccounts/core#367)
+* fixed query parameters pick up for sebl29:useraccounts-iron-routing (see meteor-useraccounts/core#367)
 * corrected few typos within the docs and removed unnecessary debug log
 
 ## v1.12.2
@@ -67,7 +67,7 @@
 
 ## v1.12.0
 
-* removed routing support from core: refer to [useraccounts:iron-routing](https://github.com/meteor-useraccounts/iron-routing) and [useraccounts:flow-routing](https://github.com/meteor-useraccounts/flow-routing) packages to get some ;-)
+* removed routing support from core: refer to [sebl29:useraccounts-iron-routing](https://github.com/meteor-useraccounts/iron-routing) and [useraccounts:flow-routing](https://github.com/meteor-useraccounts/flow-routing) packages to get some ;-)
 * added template level content protection (see new [Content Protection](https://github.com/meteor-useraccounts/core/blob/master/Guide.md#content-protection) section)
 * updated `useraccounts:semantic-ui` to SUI v2.0 (thanks @lumatijev)
 * `displayName` configuration option for form fields now accepts also functions
@@ -100,7 +100,7 @@
 
 ## v1.9.1
 
-* aligned `useraccounts:unstyled` with the latest PRs
+* aligned `sebl29:useraccounts-unstyled` with the latest PRs
 
 ## v1.9.0
 
@@ -237,7 +237,7 @@
 ## v1.1.1
 ## v1.1.0
 
-* fixed  `atNavButton` for useraccounts:unstyled
+* fixed  `atNavButton` for sebl29:useraccounts-unstyled
 * fixed variour names and links in README files
 
 ## v1.1.0

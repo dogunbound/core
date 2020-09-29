@@ -70,7 +70,7 @@ User Accounts is a suite of packages for the [Meteor.js](https://www.meteor.com/
 * [useraccounts:polymer](https://atmospherejs.com/useraccounts/polymer) styled for [Polymer](https://www.polymer-project.org/) (WIP)
 * [useraccounts:ratchet](https://atmospherejs.com/useraccounts/ratchet) styled for [Ratchet](http://goratchet.com/)
 * [useraccounts:semantic-ui](https://atmospherejs.com/useraccounts/semantic-ui) styled for [Semantic UI](http://semantic-ui.com)
-* [useraccounts:unstyled](https://atmospherejs.com/useraccounts/unstyled) with plain html and no CSS rules
+* [sebl29:useraccounts-unstyled](https://atmospherejs.com/useraccounts/unstyled) with plain html and no CSS rules
 * plus others coming soon...
 
 
@@ -93,7 +93,7 @@ meteor add <your preferred bootstrap package>
 
 **Note 1:** no additional packages nor CSS/LESS/SASS files providing styles are included by useraccounts packages. This is to let you choose your preferred way to include them!
 
-**Note 2:** You don't have to add `useraccounts:core` to your app! It is automatically added when you add `useraccounts:<something>`...
+**Note 2:** You don't have to add `sebl29:useraccounts-core` to your app! It is automatically added when you add `useraccounts:<something>`...
 
 Then add at least one login service:
 
@@ -116,7 +116,7 @@ This is to let you configure your app exactly the way you wish, without imposing
 ### Routing
 
 If you'd like to easily configure specific routes to deal with accounts management, you might be interested to check out
-[useraccounts:iron-routing](https://github.com/meteor-useraccounts/iron-routing) and [useraccounts:flow-routing](https://github.com/meteor-useraccounts/flow-routing) packages.
+[sebl29:useraccounts-iron-routing](https://github.com/meteor-useraccounts/iron-routing) and [useraccounts:flow-routing](https://github.com/meteor-useraccounts/flow-routing) packages.
 They provide very easy routes set-up via the `AccountsTemplates.configureRoute` method.
 
 
@@ -375,7 +375,7 @@ That custom auth template just needs to include `{{> atForm}}` somewhere in it. 
 `fullPageAtForm` does).
 
 
-In case you're using one of the routing packages [useraccounts:iron-routing](https://github.com/meteor-useraccounts/iron-routing)
+In case you're using one of the routing packages [sebl29:useraccounts-iron-routing](https://github.com/meteor-useraccounts/iron-routing)
 or [useraccounts:flow-routing](https://github.com/meteor-useraccounts/flow-routing) refer to their documentation for more possibilities.
 
 
