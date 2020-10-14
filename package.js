@@ -11,19 +11,18 @@ Package.onUse(function(api) {
   api.versionsFrom('1.11.1');
 
   api.use([
-    'ecmascript',
     'accounts-base',
     'check',
-    'underscore',
+    'ecmascript',
     'reactive-var',
+    'underscore',
     'tmeasday:check-npm-versions@0.3.2',
   ], ['client', 'server']);
 
   api.use([
-    'blaze',
+    'blaze-html-templates@1.1.2',
+    'jquery@1.11.11',
     'reactive-dict',
-    'templating',
-    'jquery'
   ], 'client');
 
   api.use([
@@ -36,7 +35,7 @@ Package.onUse(function(api) {
   ], ['client', 'server']);
 
   api.imply([
-    'templating',
+    'blaze-html-templates@1.1.2',
   ], ['client']);
 
   api.addFiles([
