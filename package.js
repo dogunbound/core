@@ -21,7 +21,7 @@ Package.onUse(function(api) {
 
   api.use([
     'blaze-html-templates@1.1.2',
-    'jquery@1.11.11',
+    'jquery',
     'reactive-dict',
   ], 'client');
 
